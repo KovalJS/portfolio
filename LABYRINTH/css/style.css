@@ -1,0 +1,914 @@
+@font-face {
+font-family: 'BERNIER Regular';
+src: url('../fonts/BERNIERRegular-Regular.eot');
+src: url('../fonts/BERNIERRegular-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/BERNIERRegular-Regular.woff') format('woff'),
+url('../fonts/BERNIERRegular-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Acrom Light';
+src: url('../fonts/Acrom-Light.eot');
+src: url('../fonts/Acrom-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Acrom-Light.woff') format('woff'),
+url('../fonts/Acrom-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Acrom Bold';
+src: url('../fonts/Acrom-Bold.eot');
+src: url('../fonts/Acrom-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Acrom-Bold.woff') format('woff'),
+url('../fonts/Acrom-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro.eot');
+src: url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro.woff') format('woff'),
+url('../fonts/GothamPro.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro Medium';
+src: url('../fonts/GothamPro-Medium.eot');
+src: url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-Medium.woff') format('woff'),
+url('../fonts/GothamPro-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Times.kz Italic';
+src: url('../fonts/Times.kz Italic.eot');
+src: url('../fonts/Times.kz Italic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Times.kz Italic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+	font-family: 'Gotham Pro';
+	color: #fff;
+}
+
+.header-main {
+	background-color: #0c0602;
+	background: url("../img/header-img.jpg") no-repeat center;
+	background-size: cover; 
+
+	/*height: 100vh;*/
+}
+
+.header-top {
+	height: auto;
+	min-height: 105px;
+}
+
+.logo{
+	width: 237px;
+	float: left;
+	margin-right: 45px;
+	margin-top: 25px;
+}
+
+.logo h1 {
+	font-family: 'BERNIER Regular';
+	font-transform: uppercase;
+	font-size: 40px;
+	line-height: 37px;
+	margin: 0;
+}
+
+.logo h1 span {
+	color: #dfb415;
+}
+
+.logo p {
+	font-family: 'Acrom Light';
+	font-size: 16px;
+	line-height: 24px;
+	text-align: right;
+	margin: 0;
+
+} 
+
+.logo p span {
+	font-family: 'Acrom Bold';
+}
+
+.social {
+	float: left;
+	margin-right: 32px;
+	font-size: 0;
+	margin-top: 40px;
+}
+
+.social-btn {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border: 1px solid rgba(255,255,255,0.2);
+	border-radius: 50%;
+	margin-right: 10px;
+	background: url("../img/social.png") no-repeat;
+}
+
+.social-btn:hover {
+	transform: scale(1.2);
+}
+
+.social-btn:last-child {
+	margin-right: 0px;
+}
+
+.social-facebook {
+	background-position: 11px 8px;
+}
+
+.social-twitter {
+	background-position: -31px 8px;
+}
+
+.social-youtube {
+	background-position: -77px 8px;
+}
+
+.header-main .dropdown { 
+	display: inline-block;
+	border: none;
+}
+
+.header-main .dropdown-menu {
+	background: linear-gradient(to right, #404b53 0%, #161c28 100%);
+}
+
+.header-main .dropdown-menu a{
+	color: #fff;
+}
+
+.header-main .dropdown-menu a:hover{
+	color: #161c28;
+}
+
+.header-main .dropdown .btn {
+	padding: 0;
+	border: none;
+	margin-top: 40px;
+}
+
+.header-main .dropdown .dropdown-toggle{
+	color: #fff;
+}
+
+.header-main .close {
+	color: #fff;
+	font-weight: 400;
+	opacity: 1;
+	font-size: 62px;
+	line-height: 30px;
+	text-shadow: none;
+	display: inline-block;
+	padding-top: 40px;
+}
+
+.header-main .basket {
+	float: right;
+	margin-right: 55px;
+	margin-top: 37px;	
+}
+
+.header-main .basket img {
+	width: 45px;
+	height: 40px;
+}
+
+.header-main .info {
+	float: right;
+	margin-right: 40px;
+	margin-top: 25px;
+}
+
+.header-main .info p {
+	margin-bottom: 0;
+
+}
+
+.header-main .info-time {
+	font-family: 'Gotham Pro';
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.header-main .info-tel {
+	font-family: 'Gotham Pro Medium';
+	font-size: 22px;
+}
+
+.header-main .info-adres {
+	font-family: 'Gotham Pro';
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.header-main .info-adres a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.header-main .info-adres:hover a {
+	text-decoration: none;
+	font-weight: 800;
+	color: #bdc3c7;
+	font-size: 15px;
+}
+
+.header-main .navbar {
+	padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0;
+	margin: 0;
+	padding-right: 65px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+
+}
+
+.navbar-nav .nav-link::after {
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+	transform: scale(0);
+	transition: all 0.3s;
+}
+
+.navbar-nav .nav-item:hover .nav-link::after  {
+	display: block;
+	transform: scale(1);
+}
+
+.header-text{
+	margin-top: 145px;
+	margin-bottom: 295px;
+}
+
+.header-text h3 {
+	font-family: 'Gotham Pro';
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+ h2 {
+	font-family: 'Gotham Pro';
+	font-size: 31px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+.header-text h2 span {
+	font-family: 'Times.kz Italic';
+}
+
+.header-text h3 {
+	font-family: 'Gotham Pro';
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.header-text p {
+	box-sizing: border-box;
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 17px;
+} 
+
+.header-text p span {
+	font-weight: 800;
+}
+
+.btn{
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 0;
+	padding: 15px 50px;
+	margin-top: 35px;
+}
+
+.btn:hover{
+	color: #121019;
+	background-color: #fff;
+}
+
+.dropdown .btn:hover {
+	background-color: transparent;
+}
+
+
+
+/* ================================ adventure =================================== */
+
+.adventure {
+	background-color: #101625;
+	background: url("../img/fon-adventure.png") center no-repeat;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+
+.adventure-text {
+	font-size: 15px;
+	font-weight: 600;
+	color: #4a4a4b;
+	padding-bottom: 25px;
+}
+
+.adventure .games {
+	text-align: left;
+}
+
+.adventure .games > div:nth-child(odd) {
+	padding-right: 0;
+}
+
+
+
+.adventure .games-item {
+	padding: 35px 38px 30px 38px;
+	border: 1px solid #3f3f42;
+	margin-bottom: 10px;
+}
+
+.adventure .games-item.game1 {
+	background: url("../img/game1.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.adventure .games-item.game2 {
+	background: url("../img/game2.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.adventure .games-item.game3 {
+	background: url("../img/game3.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.adventure .games-item.game4 {
+	background: url("../img/game4.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.adventure .games h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 20px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.adventure .games .games-text {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	max-width: 250px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.adventure .games .number,
+.adventure .games .games-link{
+	font-size: 15px;
+	padding-left: 37px;
+	margin-right: 0;
+	position: relative;
+}
+
+.adventure .games .games-link a{
+	color: #fff;
+}
+
+.adventure .games .games-link a:hover {
+	text-decoration: none;
+	font-weight: 800;
+	color: #bdc3c7;
+	font-size: 15px;
+}
+
+.adventure .games .number::before,
+.adventure .games .games-link::before {
+	content: "";
+	position:absolute;
+	left: 0;
+	top: -4px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 50%;
+	background: url("../img/sprite_game.png") no-repeat;
+}
+
+.adventure .games .number::before {
+	background-position: 6px 6px;
+}
+
+.adventure .games .games-link::before {
+	background-position: 6px -31px;
+}
+
+
+.adventure .games .number {
+	margin: 0;
+	margin-bottom: 18px;
+}
+
+.adventure .games p a {
+	text-decoration: underline;
+	margin: 0;
+}
+
+.adventure .games p {
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.btn-adventure {
+	margin: 0;
+	background-color: #ffc80a;
+	border-color: #ffc80a;
+	color: #4a4027;
+} 
+
+.btn-adventure:hover {
+	background-color: #4a4027;
+	border-color: #4a4027;
+	color: #ffc80a;
+}
+
+.games .btn-button {
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 75px;
+}
+
+.adventure .info-text p {
+	margin-bottom: 70px;
+	padding-bottom: 0;
+}
+
+.adventure .question-item {
+	background: url("../img/Shape1.png") no-repeat top center;
+	padding-top: 95px;
+}
+
+.adventure .people-item {
+	background: url("../img/Shape2.png") no-repeat top center;
+	padding-top: 95px;
+}
+
+.adventure .knowledge-item {
+	background: url("../img/Shape3.png") no-repeat top center;
+	padding-top: 95px;
+}
+
+.adventure .cup-item {
+	background: url("../img/Shape4.png") no-repeat top center;
+	padding-top: 95px;
+}
+
+.adventure .question {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 26px;
+}
+
+
+.adventure .answer {
+	font-size: 13px;
+	font-weight: 400;
+	max-width: 205px;
+	margin: 0 auto;
+}
+
+.questions .btn {
+	margin-top: 65px;
+}
+
+/* ================================ contact =================================== */
+
+.contact {
+	background: url("../img/fon-contact.jpg") center bottom no-repeat;
+	min-height: 450px;
+	padding-top: 35px;
+	position: relative;
+	min-width: 590px;
+}
+
+.contact h2  {
+	color: #1a1f30;
+}
+
+.contact p {
+	color: #58585a;
+}
+
+.contact .address1 {
+	background: url("../img/img-contact.png") no-repeat;
+	position: absolute;
+	width: 74px;
+	height: 80px;
+	left: 30%;
+	top: 120%;
+}
+
+.contact .address2 {
+	background: url("../img/img-contact.png") no-repeat;
+	position: absolute;
+	width: 74px;
+	height: 80px;
+	left: 70%;
+	top: 70%;
+}
+
+.contact .address2 span{
+	display: none;
+	position: relative;
+}
+
+.contact .address2 img {
+	position: absolute;
+	left: -80%;
+}
+
+.contact .address2:hover span{
+	cursor: pointer;
+	display: block;
+}
+
+
+.contact .address3 {
+	background: url("../img/img-contact.png") no-repeat;
+	position: absolute;
+	width: 74px;
+	height: 80px;
+	left: 20%;
+	top: 290%;
+}
+
+.contact .address4 {
+	background: url("../img/img-contact.png") no-repeat;
+	position: absolute;
+	width: 74px;
+	height: 80px;
+	left: 88%;
+	top: 250%;
+}
+
+.contact .media-body {
+	text-align: left;
+	font-size: 17px;
+	line-height: 17px;
+}
+
+.contact .media-body .tel {
+	font-size: 21px;
+}
+
+.contact .media-body a {
+	font-size: 15px;
+	text-decoration: underline;
+	color: #5f6169;
+}
+
+.contact  .modal {
+	top: 20%;
+	left: -20%;
+}
+
+.contact  .modal4 {
+	top: 35%;
+	left: 25%;
+}
+
+/* ================================ footer-labyrinth =================================== */
+
+.footer-labyrinth {
+	background-color: #000000;
+	padding-top: 17px;
+	padding-bottom: 30px;
+}
+
+.footer-labyrinth .logo{
+	margin: 0;
+}
+
+.footer-labyrinth .footer-top {
+	text-align: right;
+	padding-bottom: 45px;
+	vertical-align: middle;
+	line-height: 50px;
+	border-bottom: 1px solid #202225;
+}
+
+.footer-labyrinth .footer-address,
+.footer-labyrinth .email,
+.footer-labyrinth .foote-tel {
+	font-size: 17px;
+	font-weight: 400px;
+	padding-left: 30px;
+	margin-right: 40px;
+	position: relative;
+	white-space: nowrap;
+}
+
+.footer-labyrinth .footer-address::before,
+.footer-labyrinth .email::before,
+.footer-labyrinth .foote-tel::before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	background: url("../img/footer_info_img.png") no-repeat;
+}
+
+.footer-labyrinth .foote-tel::before {
+	background-position: -310px 0;
+}
+
+.footer-labyrinth .email::before {
+	background-position: -520px 0;
+}
+
+.footer-labyrinth .email {
+	margin-right: 0;
+}
+
+.footer-labyrinth .footer-bottom .footer-c {
+	font-size: 14px;
+	font-weight: 400;
+	color: #bdc3c7;
+	float: left;
+	margin-bottom: 0;
+}
+
+.footer-labyrinth .footer-bottom {
+	text-align: right;
+	margin-top: 25px;
+}
+
+.footer-labyrinth .social {
+	float: none;
+	margin-top: 0;
+}
+
+/* ================================ @media =================================== */
+
+
+@media only screen and (max-width: 1199px) {
+	.contact .address1,
+	.contact .address2,
+	.contact .address4 {
+		display: none;
+	}
+
+	.footer-info-labyrinth {
+		display: block;
+		clear: both;
+	}
+
+	.footer-labyrinth .footer-top {
+		text-align: left;
+	}
+
+	.footer-labyrinth .footer-address,
+	.footer-labyrinth .email,
+	.footer-labyrinth .foote-tel {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-toggler {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.navbar-nav {
+		background-color: rgba(0,0,0,0.5);
+		padding-left: 10px;
+		border-radius: 10px;
+	}
+
+	.social,
+	.basket {
+		display: none;
+	}
+
+	.header-main .container {
+		max-width: 100%;
+	}
+
+	.header-text{
+	margin-top: 100px;	
+	}
+
+	.header-text h2 {
+		max-width: 715px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 27px;
+	}
+
+	.header-text{
+	margin-top: 100px;
+	margin-bottom: 250px;
+	}
+
+	.adventure .container {
+		max-width: 100%;
+	}
+
+	.adventure .row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.adventure .games h2 {
+	font-size: 30px;
+	font-weight: 900;
+	}
+
+	.adventure .question {
+	font-size: 20px;
+	}
+
+	.adventure .answer {
+		max-width: 100%;
+	}
+
+	.adventure .questions > div {
+		padding-bottom: 40px;
+	}
+
+	.header-main .container {
+		padding: 0 35px;
+	}
+
+	.contact h2 {
+		font-size: 27px;
+	}
+
+	.footer-labyrinth .social {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.adventure .text-center h2{
+		font-size: 25px;
+	}
+
+	.adventure .games h2 {
+		font-size: 25px;
+		font-weight: 900;
+	}
+
+	.btn{
+		padding: 10px 30px;
+	}
+
+	.adventure .games .number,
+	.adventure .games .games-link{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.adventure .answer {
+		max-width: 500px;
+	}
+
+	.questions .btn {
+		margin-top: 30px;
+	}
+
+	.adventure .games > div:nth-child(odd) {
+		padding-right: 15px;
+	}
+
+	.adventure .games > div {
+		padding-bottom: 20px;
+	}
+
+	.contact .address3 {
+	left: 0%;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.header-main .info {
+		float: none;
+		margin: 50px 0 0 0;
+		text-align: center;
+	}
+
+	.header-main .navbar {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+	}
+
+	.navbar-nav {
+		position: absolute;
+		z-index: 100;
+		left: -130px;
+		background: linear-gradient(to right, #404b53 0%, #161c28 100%);
+		opacity: 1;
+		padding-left: 20px;
+		border-radius: 10px;
+	}
+
+	.header-text{
+	margin-top: 85px;
+	margin-bottom: 230px;
+	}
+
+}
+
+@media only screen and (max-width: 610px) {
+	.contact {
+		display: none;
+	}
+
+	.footer-labyrinth .footer-bottom .footer-c {
+		font-size: 13px;
+	}
+
+	.footer-labyrinth .footer-address,
+	.footer-labyrinth .email,
+	.footer-labyrinth .foote-tel {
+		font-size: 13px;
+	}
+
+	.footer-labyrinth .social {
+		clear: both;
+		text-align: left;
+		padding-top: 10px;
+	}
+
+	.footer-labyrinth .footer-bottom .footer-c {
+		white-space: wrap;
+		text-align: left;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	.logo {
+		float: none;
+		display: inline-block;
+	}
+
+	.header-main .dropdown { 	
+		display: block;
+	}
+
+	.header-main .navbar {
+		top: 115px;
+	}
+
+	.header-text{
+	margin-top: 70px;
+	margin-bottom: 225px;
+	}
+
+	.adventure .games-item {
+		padding: 20px 15px 20px 15px;
+	}
+
+	.btn{
+		padding: 8px 25px;
+	}
+
+	.adventure .games h2 {
+		line-height: 30px;
+	}
+}
+

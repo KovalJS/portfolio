@@ -1,0 +1,45 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.row {
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.card-item {
+    height: 300px;
+}
+
+div .col-3:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.dropdown-item {
+    cursor: pointer; 
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    border-radius: 4px;
+    padding: 3px;
+    line-height: 42px;
+    font-size: 16px;
+    height: 50px;
+    width: 50px;
+    z-index: 1000;
+    color: #fff;
+    transition: all 0.5s;
+    background-color:#00658d;
+    border: 0;
+    cursor: pointer;
+    display:none;
+}
